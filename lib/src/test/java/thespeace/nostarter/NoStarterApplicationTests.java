@@ -1,4 +1,4 @@
-package hello.nostarter;
+package thespeace.nostarter;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
