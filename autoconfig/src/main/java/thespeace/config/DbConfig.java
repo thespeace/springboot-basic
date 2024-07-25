@@ -25,7 +25,7 @@ import javax.sql.DataSource;
  * </ul>
  */
 @Slf4j
-@Configuration
+//@Configuration
 public class DbConfig {
 
     @Bean
