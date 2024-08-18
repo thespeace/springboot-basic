@@ -4,15 +4,15 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import thespeace.datasource.MyDataSource;
-import thespeace.datasource.MyDataSourcePropertiesV2;
+import thespeace.datasource.MyDataSourcePropertiesV3;
 
 @Slf4j
-@EnableConfigurationProperties(MyDataSourcePropertiesV2.class)
-public class MyDataSourceConfigV2 {
+@EnableConfigurationProperties(MyDataSourcePropertiesV3.class)
+public class MyDataSourceConfigV3 {
 
-    private final MyDataSourcePropertiesV2 properties;
+    private final MyDataSourcePropertiesV3 properties;
 
-    public MyDataSourceConfigV2(MyDataSourcePropertiesV2 properties) {
+    public MyDataSourceConfigV3(MyDataSourcePropertiesV3 properties) {
         this.properties = properties;
     }
 
