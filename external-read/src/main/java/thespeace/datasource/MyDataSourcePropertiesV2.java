@@ -28,7 +28,7 @@ import java.util.List;
  * </ul><p><p>
  *
  * <h2>정리</h2>
- * application.properties 에 필요한 외부 설정을 추가하고, @ConfigurationProperties 의 생성자 주입을
+ * application_backup.properties 에 필요한 외부 설정을 추가하고, @ConfigurationProperties 의 생성자 주입을
  * 통해서 값을 읽어들였다. Setter 가 없으므로 개발자가 중간에 실수로 값을 변경하는 문제가 발생하지 않는다.<p><p>
  *
  * <h2>문제</h2>
