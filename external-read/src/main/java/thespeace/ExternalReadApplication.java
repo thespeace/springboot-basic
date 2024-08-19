@@ -10,7 +10,7 @@ import thespeace.config.*;
 //@Import(MyDataSourceConfigV1.class)
 //@Import(MyDataSourceConfigV2.class)
 @Import(MyDataSourceConfigV3.class)
-@SpringBootApplication(scanBasePackages = "thespeace.datasource") //설정 정보를 바꾸면서 사용하기 위해 스캔 위치 설정.
+@SpringBootApplication(scanBasePackages = {"thespeace.datasource", "thespeace.pay"}) //설정 정보를 바꾸면서 사용하기 위해 스캔 위치 설정.
 public class ExternalReadApplication {
 
     public static void main(String[] args) {
