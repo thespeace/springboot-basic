@@ -8,8 +8,6 @@ management:
       enabled: true
     git:
       mode: "full"
-  server:
-    port: 8080
   endpoint:
     health:
       show-components: always
