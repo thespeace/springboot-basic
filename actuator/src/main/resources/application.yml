@@ -25,3 +25,9 @@ info:
 logging:
   level:
     thespeace.controller: debug
+
+
+server:
+  tomcat:
+    mbeanregistry:
+      enabled: true
