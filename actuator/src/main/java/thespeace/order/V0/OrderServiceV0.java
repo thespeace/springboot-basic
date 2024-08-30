@@ -18,7 +18,7 @@ public class OrderServiceV0 implements OrderService {
 
     @Override
     public void cancel() {
-        log.info("주문");
+        log.info("취소");
         stock.incrementAndGet();
     }
 
