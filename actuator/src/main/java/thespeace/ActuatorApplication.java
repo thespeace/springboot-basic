@@ -10,12 +10,15 @@ import thespeace.order.V1.OrderConfigV1;
 import thespeace.order.V2.OrderConfigV2;
 import thespeace.order.V3.OrderConfigV3;
 import thespeace.order.V4.OrderConfigV4;
+import thespeace.order.gauge.StockConfigV1;
+import thespeace.order.gauge.StockConfigV2;
 
 //@Import(OrderConfigV0.class)
 //@Import(OrderConfigV1.class)
 //@Import(OrderConfigV2.class)
 //@Import(OrderConfigV3.class)
-@Import(OrderConfigV4.class)
+//@Import({OrderConfigV4.class, StockConfigV1.class})
+@Import({OrderConfigV4.class, StockConfigV2.class})
 @SpringBootApplication(scanBasePackages = "thespeace.controller")
 public class ActuatorApplication {
 
